@@ -7,14 +7,6 @@ void map_init_note(std::map<std::string,int> &note, std::string NOTA1) {
     int note_lista_size = 12;
     int C1 = 24;
     std::string note_lista[] = {"C","C#","D","D#","E","F","F#","G","G#","A","A#","H"};
-    /*for(int i=0;i<note_lista_size;i++) {//std::cout << note_lista[i]<<"\n";
-        if(note_lista[i]!=NOTA1) {
-            note[note_lista[i]]=C1+i+1+note_lista_size;
-            std::cout << note_lista[i] << "="<<C1+i+1+note_lista_size<<"\n";
-        } else {
-            note[note_lista[i]]=C1+i+1;
-        }
-    }*/
    int i=0;
    while (note_lista[i]!=NOTA1 && i < note_lista_size)
    {
@@ -88,7 +80,7 @@ int main() {
         return 1;
 
     //Calculating INTERVAL
-    INTERVAL = note[NOTA2] - note[NOTA1] + 1;
+    INTERVAL = note[NOTA2] - note[NOTA1];
 
     //Output
     std::cout << note[NOTA1] << " " <<  note[NOTA2] << "\n";
