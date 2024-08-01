@@ -44,7 +44,7 @@ public class Skala {
 	   while (note_lista[i]!=NOTA1 && i < note_lista_size)
 	   {
 	        if(note_lista[i]!=NOTA1) {
-	        	note.put(note_lista[i], C1+i+note_lista_size-1);
+	        	note.put(note_lista[i], C1+i+note_lista_size);
 	            //note[note_lista[i]]=C1+i+note_lista_size-1;
 	            i++;
 	        } else {

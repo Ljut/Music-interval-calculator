@@ -32,7 +32,7 @@ function izracunajInterval() {
     while (note_lista[i]!=NOTA1 && i < note_lista_size)
     {
             if(note_lista[i]!=NOTA1) {
-                note[note_lista[i]]=C1+i+note_lista_size-1;
+                note[note_lista[i]]=C1+i+note_lista_size;
                 i++;
             } else {
                 //note[note_lista[i]]=C1+i+1;

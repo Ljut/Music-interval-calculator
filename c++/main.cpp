@@ -11,7 +11,7 @@ void map_init_note(std::map<std::string,int> &note, std::string NOTA1) {
    while (note_lista[i]!=NOTA1 && i < note_lista_size)
    {
         if(note_lista[i]!=NOTA1) {
-            note[note_lista[i]]=C1+i+note_lista_size-1;
+            note[note_lista[i]]=C1+i+note_lista_size;
             std::cout << note_lista[i] << "="<<note[note_lista[i]]<<"\n";
             i++;
         } else {

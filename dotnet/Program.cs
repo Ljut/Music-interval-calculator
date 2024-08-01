@@ -9,7 +9,7 @@ Dictionary<string,int>  map_init_note(string NOTA1) {
     while (note_lista[i]!=NOTA1 && i < note_lista_size)
     {
             if(note_lista[i]!=NOTA1) {
-                note.Add(note_lista[i], C1+i+note_lista_size-1);
+                note.Add(note_lista[i], C1+i+note_lista_size);
                 i++;
             } else {
                 //note[note_lista[i]]=C1+i+1;
