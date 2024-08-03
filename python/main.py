@@ -41,8 +41,8 @@ def map_init_note(NOTA1):
             i+=1
         else:
             break
-    for _ in range(i,note_lista_size):
-        note[note_lista[i]]=C1+i
+    for p in range(i,note_lista_size):
+        note[note_lista[p]]=C1+p
     return note
 
 error = doesNoteExist(NOTA1)
