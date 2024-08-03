@@ -56,7 +56,7 @@ bool doesNoteExist(String NOTA) {
 
 Dictionary<string,int> note;
 Dictionary<int, string> intervali = map_init_intervali();
-string NOTA1, NOTA2;
+string? NOTA1, NOTA2;
 int INTERVAL;
 
 
