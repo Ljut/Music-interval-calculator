@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Interval calculator</string>
+    <string name="flat">b</string>
+    <string name="sharp">#</string>
+
+
+</resources>
